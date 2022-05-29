@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+#  PcParts Bangladesh
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Live link: [https://doctor-portal-ce938.web.app/]
 
 ## Available Scripts
 Tech/Stack used:
@@ -8,7 +8,8 @@ Tech/Stack used:
 * React-bootstrap
 * React-firebase-hook
 * React-router-dom
+* Expressjs
+* tailwind
+* daisyui
 * React-hook-form
-* pages :- Home, Blogs, About, Login, Add item, Manage item, My item
 * Responsive home page
-* Overview of Photography service package
