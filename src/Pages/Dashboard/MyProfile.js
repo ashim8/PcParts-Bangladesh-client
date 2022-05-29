@@ -3,7 +3,7 @@ import React from 'react';
 const MyProfile = () => {
     return (
         <div>
-            <h2>This is my treatment History</h2>
+            <h2>This is my profile</h2>
         </div>
     );
 };

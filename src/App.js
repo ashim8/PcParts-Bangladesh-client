@@ -20,6 +20,7 @@ import MyProfile from './Pages/Dashboard/MyProfile';
 import Blogs from './Pages/Blogs/Blogs';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import NotFound from './Pages/Shared/NotFound';
+import ProductDetails from './Pages/ProductDetails';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/product/:id" element={  <RequireAuth><ProductDetails></ProductDetails></RequireAuth> }></Route>
         <Route path="appointment" element={
           <RequireAuth>
             <Appointment />

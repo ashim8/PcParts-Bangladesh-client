@@ -1,8 +1,8 @@
 import React from 'react';
-import { toast } from 'react-toastify';
+// import { toast } from 'react-toastify';
 
 const DoctorRow = ({ doctor, index, refetch, setDeletingDoctor }) => {
-    const { name, specialty, img, email } = doctor;
+    const { name, specialty, img } = doctor;
     
     return (
         <tr>
